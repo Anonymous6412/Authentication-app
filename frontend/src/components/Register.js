@@ -13,7 +13,7 @@ const Register = () => {
     const handleRegister = async (e) => {
         e.preventDefault();
         try {
-            const response = await axios.post("https://authentication-app2-backend.onrender.com/api/auth/register", { username, password });
+            const response = await axios.post("https://authentication-app-backend-fo05.onrender.com/api/auth/register", { username, password });
             setMessage(response.data.message);  // Success message
 
             // Save token to localStorage or use it immediately
