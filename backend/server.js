@@ -22,7 +22,7 @@ const startServer = (port) => {
 
 // Enable CORS for all routes
 app.use(cors({
-  origin: 'http://localhost:3000', // Replace with the URL of your frontend
+  origin: 'https://authentication-app-frontend-gzxp.onrender.com', // Replace with the URL of your frontend
   methods: ['GET', 'POST'],
   credentials: true,
 }));
